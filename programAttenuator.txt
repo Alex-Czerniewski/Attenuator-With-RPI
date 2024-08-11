@@ -1,0 +1,21 @@
+Serial communication protocol analysis
+
+The overall structure of the CNC attenuator ATT-6000 protocol adopts the command line mode, and the communication baud rate is 115200bps. 
+The PC sends out the command, the machine parses and executes it, and then returns the result to the PC. 
+The command is limited to lowercase letters a~z and the number 0 ~9, 
+the end symbol of each command is a newline character (hexadecimal representation is "0x0a" or'/n')
+
+Communication commands include three types of commands: w command
+
+wv0 command: set the output attenuation
+
+The format is: wv0xxxx + 0x0a, a total of 8 bytes;
+
+Where "xxxx" is the attenuation value represented by 4 numbers, such as:
+
+wv01150\n: indicates that the write attenuation is: 11.5DB (the maximum attenuation is: 0-3175, the step is 25)
+
+Converted into hexadecimal: that is 0X77 0X76 0X30 0X31 0X31 0X35 0X30 0X0a
+
+0X77 0X76 0X30 0X31 0X31 0X35 0X30 0X0a
+w     v    0     1    1    5   0    \n
