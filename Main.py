@@ -3,7 +3,7 @@
 """
 Created on Sat Aug 10 23:47:35 2024
 
-@author: pi
+@author: Alex Czerniewski
 """
 
 from ui import Ui_MainWindow
@@ -21,9 +21,9 @@ class Main(qtw.QMainWindow):
         self.ui.btn_set_attenuation.clicked.connect(self.set_att)
         
     def set_att(self):
-        os.system("sudo chmod 666 /dev/ttyS0")
+        os.system("sudo chmod 666 /dev/ttyS0")  # replace with your port
         ser=serial.Serial(
-            port='/dev/ttyS0',
+            port='/dev/ttyS0', # replace with your port
             baudrate=115200,
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
