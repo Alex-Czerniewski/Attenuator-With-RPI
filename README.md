@@ -3,16 +3,15 @@
 This is a program to control an attenuator (ATT-6000 protocol) through serial port using a Raspberry Pi and Python.
 
 ## Connections
-<img title="This is the attenuator that will be used" src="/imgs/top_view_att.jpg" width="500" height="250">
-<img title="Raspberry Pi 4 pinout (https://nerdytechy.com/raspberry-pi-4-gpio-pinout/)" src="/rpi4_pinout.jpg" width="500" height="300">
-<img title="Side view of connections to attenuator" src="/imgs/side_view_att_connections.jpg" width="500" height="300">
-<img title="Top view of connections to attenuator" src="/imgs/top_view_att_connections.png" width="500" height="300">
-<img title="Top view of connections to Raspberry Pi" src="/imgs/top_view_rpi_connections.png" width="500" height="300">
-<img title="Block Diagram of all connections" src="/imgs/block_diagram_connections.png" width="500" height="300">
+<img alt="This is the attenuator that will be used" src="/imgs/top_view_att.jpg" width="500" height="250">
+<img alt="Raspberry Pi 4 pinout (https://nerdytechy.com/raspberry-pi-4-gpio-pinout/)" src="/rpi4_pinout.jpg" width="500" height="300">
+<img alt="Side view of connections to attenuator" src="/imgs/side_view_att_connections.jpg" width="500" height="300">
+<img alt="Top view of connections to attenuator" src="/imgs/top_view_att_connections.png" width="500" height="300">
+<img alt="Top view of connections to Raspberry Pi" src="/imgs/top_view_rpi_connections.png" width="500" height="300">
+<img alt="Block Diagram of all connections" src="/imgs/block_diagram_connections.png" width="500" height="300">
 
 ## UI
-
-<img title="Here is an example of using this program" src="/imgs/ui.png" width="500" height="300">
+<img alt="Here is an example of using this program" src="/imgs/ui.png" width="500" height="300">
 
 ## Common Issues
 
