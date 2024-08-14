@@ -71,5 +71,5 @@ w          v         0        1        1        5        0       \n
 ## Clone This Repository
 Copy paste this into the terminal.
 ```sh
-git clone https://github.com/Alex-Czerniewski/Attenuator-With-RPI/
+git clone https://github.com/Alex-Czerniewski/Attenuator-With-RPI.git
 ```
